@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+faiss_index_abortion_pdf/ # Crucial: Do NOT commit your FAISS index to GitHub!
