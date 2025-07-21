@@ -106,7 +106,7 @@ def setup_rag_pipeline():
     print(f"[{datetime.now()}] Loaded {len(splits)} document splits.")
 
     print(f"[{datetime.now()}] Initializing embedding model...")
-    embedding = HuggingFaceEmbeddings(model_name=EMBED_MODEL_ID, huggingfacehub_api_token=HF_TOKEN)
+    embedding = HuggingFaceEmbeddings(model_name=EMBED_MODEL_ID)
 
     if Path(FAISS_INDEX_PATH).exists():
         print(f"[{datetime.now()}] Loading FAISS index from {FAISS_INDEX_PATH}...")
