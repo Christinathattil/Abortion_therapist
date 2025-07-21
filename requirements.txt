@@ -1,0 +1,11 @@
+python-dotenv
+langchain
+langchain-core  # <--- Add this line
+langchain-docling
+langchain-huggingface
+langchain-community
+faiss-cpu
+sentence-transformers
+transformers
+docling
+streamlit
