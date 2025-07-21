@@ -1,6 +1,6 @@
 python-dotenv
 langchain
-langchain-core  # <--- Add this line
+langchain-core  
 langchain-docling
 langchain-huggingface
 langchain-community
